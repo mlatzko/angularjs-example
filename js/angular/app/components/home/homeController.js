@@ -16,7 +16,7 @@
         .module('app')
         .controller('HomeController', Controller);
 
-    Controller.$inject = ['$log'];
+    //Controller.$inject = ['$log'];
 
     /* @ngInject */
     function Controller($log) {
@@ -26,6 +26,6 @@
             alert('Hi again!');
         }
 
-        $log.debug('HomeController - loaded');
+        $log.debug('HomeController - loaded!');
     }
 })();

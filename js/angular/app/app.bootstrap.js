@@ -19,11 +19,11 @@
      */
     function routes($routeProvider) {
         $routeProvider
-            .when('/search',{
-                title: 'Overview',
+            .when('/home',{
+                title: 'Home',
                 templateUrl: 'js/angular/app/components/home/homeView.html'
             })
-            .otherwise({ redirectTo: '/search' });
+            .otherwise({ redirectTo: '/home' });
     }
 
     /**
