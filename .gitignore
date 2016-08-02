@@ -1,4 +1,4 @@
 /css/main.css
 
-/js/bower_components/
-!/js/bower_components/.gitkeep
+#/js/bower_components/
+#!/js/bower_components/.gitkeep
