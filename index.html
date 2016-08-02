@@ -1,12 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" ng-app="app">
     <head>
-        <title>Template</title>
+        <title>Angular JS Example - {{ pageTitle }}</title>
+
+        <link rel="stylesheet" href="js/bower_components/bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
-        <h1>TEMPLATE</h1>
+        <div ng-view class="content"></div>
+
+        <script src="js/bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="js/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
         <script src="js/bower_components/angular/angular.min.js"></script>
+        <script src="js/bower_components/angular-route/angular-route.min.js"></script>
+
+        <script src="js/angular/app/app.bootstrap.js"></script>
+
+        <script src="js/angular/app/components/home/homeController.js"></script>
     </body>
 </html>
