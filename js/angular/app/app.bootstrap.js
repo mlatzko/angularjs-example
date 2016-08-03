@@ -23,6 +23,10 @@
                 title: 'Home',
                 templateUrl: 'js/angular/app/components/home/homeView.html'
             })
+            .when('/example',{
+                title: 'Example',
+                templateUrl: 'js/angular/app/components/example/exampleView.html'
+            })
             .otherwise({ redirectTo: '/home' });
     }
 

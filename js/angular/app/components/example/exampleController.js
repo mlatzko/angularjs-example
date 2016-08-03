@@ -1,5 +1,5 @@
 /**
- * @name HomeController
+ * @name ExampleController
  * @memberof controller
  *
  * @summary
@@ -14,7 +14,7 @@
 
     angular
         .module('app')
-        .controller('HomeController', Controller);
+        .controller('ExampleController', Controller);
 
     Controller.$inject = ['$log'];
 
@@ -22,10 +22,6 @@
     function Controller($log) {
         var vm = this;
 
-        vm.openDialog = function(){
-            alert('Hi again!');
-        }
-
-        $log.debug('HomeController - loaded!');
+        $log.debug('ExampleController - loaded!');
     }
 })();
